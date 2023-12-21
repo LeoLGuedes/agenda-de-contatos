@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgba(52, 94, 134, 0.829);
+    margin-top: 140px;
+}
+
+header img {
+    width: 75px;
+    margin-right: 12px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: rgb(225, 235, 243);
+    margin-bottom: 36px;
+}
+
+form {
+    display: flex;
+    max-width: 670px;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+form input {
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+button {
+    background-color: rgb(253, 122, 0);
+    border: 2px solid transparent;
+    border-radius: 20px 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    border: 2px solid #fd004c;
+}
+
+table th {
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px #fd7a00 solid;
+}
+
+table {
+    width: 100%;
+    color: rgb(225, 235, 243);
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(253, 255, 255, 0.2);
+}
+
+
